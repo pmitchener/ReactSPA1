@@ -1,0 +1,50 @@
+.loginscrn {
+  display:flex;
+  justify-content: center;
+  margin-top:50px;
+  width:100%;
+  .loginbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px 15px 20px 15px;
+    background-color: lightblue;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    width: 250px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    .loginbox-row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+      .login-label {
+        width: 100px;
+      }
+      .login-textbox {
+        width: 140px;
+        font-size: 17px;
+        border:1px solid #000;
+      }
+    }
+    .loginbotton-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      margin-left: 25px; 
+      width: 100%;
+      .login-button {
+        padding:5px;
+        font-size:15px;
+        width:100px;
+      }
+    }
+    .login-error {
+      width: 100%;
+      margin-top:3px;
+      color: red;
+      text-align: center;
+    }
+  }
+}
